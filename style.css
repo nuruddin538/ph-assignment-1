@@ -109,3 +109,42 @@ header .col-left .shop-n {
   text-align: center;
   color: rgba(39, 39, 39, 0.8);
 }
+/* sale up style here */
+.sale-up {
+  border-radius: 5px;
+  background: rgba(229, 84, 115, 0.05);
+}
+.sale-up .row {
+  display: flex;
+  justify-content: center;
+  padding: 50px 150px;
+  align-items: center;
+  gap: 50px;
+  text-align: center;
+}
+.sale-up .col h3 {
+  color: #272727;
+  font-size: 36px;
+  font-weight: 800;
+  margin-bottom: 20px;
+}
+.sale-up .col h3 span {
+  color: #e55473;
+}
+.sale-up .col p {
+  color: rgba(39, 39, 39, 0.6);
+  text-align: center;
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+.sale-up img {
+  width: 200px;
+}
+.sale-up .btn-sign-up {
+  border-radius: 8px;
+  background: #e55473;
+  font-size: 20px;
+  font-weight: 700;
+  color: #fff;
+}

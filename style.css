@@ -61,13 +61,13 @@ header .col-left .shop-n {
 .main-img img {
   width: 200px;
   height: 200px;
-  padding: 60px 30px 0px 30px;
+  padding: 130px 50px 0px 50px;
   margin-bottom: 30px;
   margin-left: 0px;
 }
 .main-img .row-main {
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   gap: 50px;
   text-align: center;
 }
@@ -88,4 +88,24 @@ header .col-left .shop-n {
   text-align: center;
   font-size: 16px;
   text-decoration-line: underline;
+}
+/* main icon styles here */
+.main-icon {
+  padding: 50px 150px;
+}
+.main-icon .row-icon {
+  border-radius: 5px;
+  background: rgba(39, 39, 39, 0.05);
+  display: flex;
+  justify-content: space-around;
+  padding: 50px 70px;
+  text-align: center;
+}
+.row-icon img {
+  margin-bottom: 20px;
+}
+.row-icon span {
+  display: block;
+  text-align: center;
+  color: rgba(39, 39, 39, 0.8);
 }

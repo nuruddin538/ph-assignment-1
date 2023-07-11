@@ -2,4 +2,41 @@
 * {
   margin: 0;
   padding: 0;
+  font-family: 'Lato', sans-serif;
+}
+.btn {
+  color: #fff;
+  padding: 15px 40px;
+  border: 0;
+  color: black;
+}
+/* header styles here */
+header {
+  background: rgba(229, 84, 115, 0.1);
+}
+header .row {
+  display: flex;
+  gap: 30px;
+  justify-content: space-around;
+  padding: 50px 150px 0px 150px;
+  align-items: center;
+}
+header .col-right img {
+  width: 400px;
+}
+header .col-left h1 {
+  color: #272727;
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+header .col-left p {
+  color: rgba(39, 39, 39, 0.6);
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  margin-bottom: 20px;
+}
+header .col-left .shop-n {
+  border-radius: 5px;
+  background: #e55473;
 }

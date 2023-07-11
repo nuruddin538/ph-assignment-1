@@ -40,3 +40,52 @@ header .col-left .shop-n {
   border-radius: 5px;
   background: #e55473;
 }
+/* featured main-section styles here */
+.featured-f-s {
+  padding: 100px 150px;
+}
+.featured-f-s h2 {
+  color: #272727;
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+.featured-f-s p {
+  color: rgba(39, 39, 39, 0.6);
+  font-size: 18px;
+  font-weight: 400;
+  margin-bottom: 50px;
+}
+.featured-f-s .main-content {
+  text-align: center;
+}
+.main-img img {
+  width: 200px;
+  height: 200px;
+  padding: 60px 30px 0px 30px;
+  margin-bottom: 30px;
+  margin-left: 0px;
+}
+.main-img .row-main {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  text-align: center;
+}
+.main-img .row-main .col-f-1 {
+  border-radius: 300px 300px 0px 0px;
+  background: rgba(167, 33, 98, 0.15);
+}
+.main-img .row-main .col-f-2 {
+  border-radius: 300px 300px 0px 0px;
+  background: rgba(5, 151, 160, 0.15);
+}
+.main-img .row-main .col-f-3 {
+  border-radius: 300px 300px 0px 0px;
+  background: rgba(71, 125, 17, 0.15);
+}
+.main-img .row-main h5 {
+  color: #272727;
+  text-align: center;
+  font-size: 16px;
+  text-decoration-line: underline;
+}
